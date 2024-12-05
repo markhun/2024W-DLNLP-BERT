@@ -2,8 +2,8 @@
 # torch==2.5.1
 
 # pytorch CPU-only installation
---extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.5.1+cpu
+#--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1
 
 scikit-learn==1.5.2
 pandas==2.2.3
