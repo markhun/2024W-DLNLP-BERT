@@ -22,7 +22,7 @@ endif
 
 requirements:
 	@. $(VENV)/bin/activate && \
-		pip install -r $(REQUIREMENTS)
+		DISPLAY= pip install -r $(REQUIREMENTS)  # Setting DISPLAY is a hack to accomodate a bug in WSL: https://stackoverflow.com/a/69011313
 
 black:
 	@. $(VENV)/bin/activate && \
