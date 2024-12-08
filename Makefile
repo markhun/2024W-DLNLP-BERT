@@ -24,6 +24,10 @@ requirements:
 	@. $(VENV)/bin/activate && \
 		DISPLAY= pip install -r $(REQUIREMENTS)  # Setting DISPLAY is a hack to accomodate a bug in WSL: https://stackoverflow.com/a/69011313
 
+install:
+	@. $(VENV)/bin/activate && \
+		pip install -e ./DLNLP-BERT/
+
 black:
 	@. $(VENV)/bin/activate && \
 		black --diff --check . 
