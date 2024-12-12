@@ -4,7 +4,7 @@
 
 ### 1. Ensure external dependencies are installed
 
-First make sure that you have Python 3.10 available on your system and the interpreter executable is available as `python3.10`.
+First make sure that you have Python 3.11 available on your system and the interpreter executable is available as `python3.11`.
 
 ### 2. Setup a Python virtual environment
 

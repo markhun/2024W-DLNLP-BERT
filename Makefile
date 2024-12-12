@@ -1,7 +1,7 @@
 VENV := .venv
 REQUIREMENTS := requirements.txt
 
-PYTHON_VERSION_REQ = python3.10  # Also name of the required python executable 
+PYTHON_VERSION_REQ = python3.11  # Also name of the required python executable 
 PYTHON_INSTALLED := $(shell command -v $(PYTHON_VERSION_REQ) 2> /dev/null)  # Check if executable is installed
 
 .PHONY: dev venv requirements 
