@@ -8,10 +8,18 @@ torch==2.5.1
 scikit-learn==1.5.2
 pandas==2.2.3
 
+# Huggingface
+transformers[torch]
+datasets
+evaluate
+
 # jupyter notebook stuff
 ipykernel
 jupyterlab
 ipywidgets
+
+# plotting
+seaborn
 
 # formatting / linting
 black==24.10.0
