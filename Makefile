@@ -25,8 +25,8 @@ requirements:
 		DISPLAY= pip install -r $(REQUIREMENTS)  # Setting DISPLAY is a hack to accomodate a bug in WSL: https://stackoverflow.com/a/69011313
 
 register-venv-in-jupyterhub:
-    @python -m ipykpython -m ipykernel install --user --name .venv
-    @echo "Registered .venv with JupyterHub. Please reload the page so that you can see it" 
+	@python -m ipykpython -m ipykernel install --user --name .venv
+	@echo "Registered .venv with JupyterHub. Please reload the page so that you can see it" 
 
 install:
 	@. $(VENV)/bin/activate && \
