@@ -1,4 +1,4 @@
-# dlnlp-BERT-BERT
+# dlnlp-BERT
 
 ## Setting up the development environment
 
