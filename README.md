@@ -19,3 +19,18 @@ This package provdes all implementations to execute the provided experiments.
 ### 4. Format your code
 
 Execute `make lint` to format and lint your code.
+
+---
+
+## Reproducing BERT Experiments
+
+### GLUE
+
+- [GLUE Task: MNLI (matched/mismatched)](./BERT-finetuning-GLUE-MNLI.ipynb)
+- [GLUE Task: QQP](./BERT-finetuning-GLUE-QQP.ipynb)
+- [GLUE Task: QNLI](./BERT-finetuning-GLUE-QNLI.ipynb)
+- [GLUE Task: SST2](./BERT-finetuning-GLUE-SST2.ipynb)
+- [GLUE Task: CoLA](./BERT-finetuning-GLUE-CoLA.ipynb)
+- [GLUE Task: STS-B](./BERT-finetuning-GLUE-STSB.ipynb)
+- [GLUE Task: MRPC](./BERT-finetuning-GLUE-MRPC.ipynb)
+- [GLUE Task: RTE](./BERT-finetuning-GLUE-RTE.ipynb)
