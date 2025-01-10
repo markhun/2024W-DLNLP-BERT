@@ -9,7 +9,7 @@ scikit-learn==1.5.2
 pandas==2.2.3
 
 # Huggingface
-transformers[torch]
+transformers[torch]>=4.48.0
 datasets
 evaluate
 
