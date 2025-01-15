@@ -1,24 +1,46 @@
-# dlnlp-BERT
+# DLNLP - BERT
 
-## Setting up the development environment
+## Setting up a local development environment
 
 ### 1. Ensure external dependencies are installed
 
-First make sure that you have Python 3.11 available on your system and the interpreter executable is available as `python3.11`.
+First, make sure that you have Python 3.11 available on your system and the interpreter executable is available as `python3.11`.
 
-### 2. Setup a Python virtual environment
+### 2. Set up a Python virtual environment
 
-Execute `make dev`. This will setup a Python virtual environment, install all the necessary dependencies into it.
+Execute `make dev`. This will set up a Python virtual environment, install all the necessary dependencies into it.
 Execute `source .venv/bin/activate` to enter the created virtual environment.
 
 ### 3. Install the `2024W DLNLP` package in development mode
 
 Execute `make install`. This will install the package `2024W DLNLP` in development mode.
-This package provdes all implementations to execute the provided experiments.
+This package provides all implementations to execute the provided experiments.
 
 ### 4. Format your code
 
 Execute `make lint` to format and lint your code.
+
+## Setting up a JupyterHub development environment
+
+For this university project, We were provided with access to a JupyterHub instance. 
+Do not use the provided instructions for setting up a `conda` environment. Instead, you need to take the following steps to execute our code there:
+
+### 1. Clone the repository:
+
+`git clone https://github.com/markhun/2024W-DLNLP-BERT.git`
+
+### 2. Set up a Python virtual environment
+
+At first, execute `make dev` to create virtual environment.
+This may take a while to complete.
+
+### 3. Register the virtual env as a kernel 
+
+Execute `make register-venv-in-jupyterhub`.  
+The registered Kernel will be called `.venv`.  
+Refresh the web interface (e.g. by pressing F5 on your keyboard).
+
+When opening a notebook, make sure to select the Python kernel `.venv`.
 
 ---
 
