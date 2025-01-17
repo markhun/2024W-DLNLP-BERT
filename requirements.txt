@@ -24,3 +24,8 @@ seaborn
 # formatting / linting
 black==24.10.0
 isort==5.13.2
+
+# for DeBERTa
+tiktoken
+sentencepiece
+protobuf
