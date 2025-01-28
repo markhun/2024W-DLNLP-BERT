@@ -29,10 +29,6 @@ register-venv-in-jupyterhub:
 		python -m ipykernel install --user --name .venv
 	@echo "Registered .venv with JupyterHub. Please reload the page so that you can see it" 
 
-install:
-	@. $(VENV)/bin/activate && \
-		pip install -e ./DLNLP-BERT/
-
 black:
 	@. $(VENV)/bin/activate && \
 		black --diff --check . 
