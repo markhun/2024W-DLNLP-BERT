@@ -43,11 +43,11 @@ When opening a notebook, make sure to select the Python kernel `.venv`.
 
 ### GLUE
 
-- [GLUE Task: MNLI (matched/mismatched)](./BERT-finetuning-GLUE-MNLI.ipynb)
-- [GLUE Task: QQP](./BERT-finetuning-GLUE-QQP.ipynb)
-- [GLUE Task: QNLI](./BERT-finetuning-GLUE-QNLI.ipynb)
-- [GLUE Task: SST2](./BERT-finetuning-GLUE-SST2.ipynb)
-- [GLUE Task: CoLA](./BERT-finetuning-GLUE-CoLA.ipynb)
-- [GLUE Task: STS-B](./BERT-finetuning-GLUE-STSB.ipynb)
-- [GLUE Task: MRPC](./BERT-finetuning-GLUE-MRPC.ipynb)
-- [GLUE Task: RTE](./BERT-finetuning-GLUE-RTE.ipynb)
+- [GLUE Task: MNLI (matched/mismatched)](./glue/BERT-finetuning-GLUE-MNLI.ipynb)
+- [GLUE Task: QQP](./glue/BERT-finetuning-GLUE-QQP.ipynb)
+- [GLUE Task: QNLI](./glue/BERT-finetuning-GLUE-QNLI.ipynb)
+- [GLUE Task: SST2](./glue/BERT-finetuning-GLUE-SST2.ipynb)
+- [GLUE Task: CoLA](./glue/BERT-finetuning-GLUE-CoLA.ipynb)
+- [GLUE Task: STS-B](./glue/BERT-finetuning-GLUE-STSB.ipynb)
+- [GLUE Task: MRPC](./glue/BERT-finetuning-GLUE-MRPC.ipynb)
+- [GLUE Task: RTE](./glue/BERT-finetuning-GLUE-RTE.ipynb)
